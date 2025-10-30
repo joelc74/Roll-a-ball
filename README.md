@@ -13,4 +13,15 @@ en la elaboración y programación del mismo y poder incursionar en el mundo Gam
 <p>2- Instalamos Unity Editor preferiblemente última versión LTS</p>
 <p>3- Creamos el Proyecto al que denomine Roll-a-ball en 3D (Built-in Render Pipeline)</p>
 <h3>Desarrollo del Video Juego</h3>
-<p></p>
+<p>Se realizo el video juego siguiendo el tutorial 'https://learn.unity.com/project/roll-a-ball'</p>
+<p>1- 'Setting up the Game'</p>
+<p>2- 'Moving the Player'</p>
+<p>3- 'Moving the Camera'</p>
+<p>4- 'Setting up the Play Area'</p>
+<p>5- 'Creating Collectibles'</p>
+<p>6- 'Detecting Collisions with Collectibles'</p>
+<p>7- 'Displaying Score and Text'</p>
+<p>8- 'Adding AI Navigation'</p>
+<p>9- 'Building the Game'</p>
+<h1>Como Jugar</h1>
+<p>Para comenzar el juego lo primero es posicionarse en la Scene MainMenu</p>
