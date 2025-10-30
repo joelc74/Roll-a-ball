@@ -3,18 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags:
-  - blueBall
-  - pinkBall
-  - blackBall
-  - greenBall
-  - cube
-  - Cube
-<<<<<<< HEAD
-  - Enemy
-  - Ground
-=======
->>>>>>> 80393f7726bf9d53c4627dcf5529842d2de4f0f3
+  tags: []
   layers:
   - Default
   - TransparentFX
