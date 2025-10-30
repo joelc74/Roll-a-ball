@@ -9,6 +9,7 @@
     "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\BuiltInPackagesCombined.sha1"
   ],
   "outputs": {
+<<<<<<< HEAD
     "com.unity.2d.sprite@1.0.0": {
       "name": "com.unity.2d.sprite",
       "displayName": "2D Sprite",
@@ -19,6 +20,8 @@
       "source": "builtin",
       "testable": false
     },
+=======
+>>>>>>> 80393f7726bf9d53c4627dcf5529842d2de4f0f3
     "com.unity.ai.navigation@2.0.9": {
       "name": "com.unity.ai.navigation",
       "displayName": "AI Navigation",

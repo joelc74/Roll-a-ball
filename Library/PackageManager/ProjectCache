@@ -5,16 +5,26 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< HEAD
       ticks: 638973492551043302
     m_Hash: 3215209801
+=======
+      ticks: 638970162483988735
+    m_Hash: 1826266822
+>>>>>>> 80393f7726bf9d53c4627dcf5529842d2de4f0f3
   m_LockFileStatus:
     m_FilePath: C:/Users/joelc/Roll-a-ball/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< HEAD
       ticks: 638973492551098682
     m_Hash: 2047955316
+=======
+      ticks: 638970162484034623
+    m_Hash: 415941968
+>>>>>>> 80393f7726bf9d53c4627dcf5529842d2de4f0f3
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,6 +32,7 @@ m_LocalPackages:
 m_ProjectPath: C:/Users/joelc/Roll-a-ball/Packages
 m_EditorVersion: 6000.2.8f1 (c9992ac36c34)
 m_ResolvedPackages:
+<<<<<<< HEAD
 - packageId: com.unity.2d.sprite@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -102,6 +113,8 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
+=======
+>>>>>>> 80393f7726bf9d53c4627dcf5529842d2de4f0f3
 - packageId: com.unity.ai.navigation@2.0.9
   testable: 0
   isDirectDependency: 1

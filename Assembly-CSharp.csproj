@@ -49,11 +49,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\EnemyMovement.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Rotator.cs" />
     <Compile Include="Assets\Scripts\Rotator1.cs" />
     <Compile Include="Assets\Scripts\GameStartDelay.cs" />
+=======
+    <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Rotator.cs" />
+    <Compile Include="Assets\Scripts\Rotator1.cs" />
+>>>>>>> 80393f7726bf9d53c4627dcf5529842d2de4f0f3
     <Compile Include="Assets\Scripts\CameraController.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -1078,10 +1084,13 @@
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+<<<<<<< HEAD
     <Reference Include="Unity.2D.Sprite.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+=======
+>>>>>>> 80393f7726bf9d53c4627dcf5529842d2de4f0f3
     <Reference Include="Unity.VisualScripting.Flow.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1170,10 +1179,13 @@
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
       <Private>False</Private>
     </Reference>
+<<<<<<< HEAD
     <Reference Include="Unity.2D.Sprite.AIIntegration.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.AIIntegration.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+=======
+>>>>>>> 80393f7726bf9d53c4627dcf5529842d2de4f0f3
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
       <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
       <Private>False</Private>

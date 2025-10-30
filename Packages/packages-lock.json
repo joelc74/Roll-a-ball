@@ -1,11 +1,14 @@
 {
   "dependencies": {
+<<<<<<< HEAD
     "com.unity.2d.sprite": {
       "version": "1.0.0",
       "depth": 0,
       "source": "builtin",
       "dependencies": {}
     },
+=======
+>>>>>>> 80393f7726bf9d53c4627dcf5529842d2de4f0f3
     "com.unity.ai.navigation": {
       "version": "2.0.9",
       "depth": 0,
