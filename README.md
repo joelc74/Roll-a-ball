@@ -24,4 +24,7 @@ en la elaboración y programación del mismo y poder incursionar en el mundo Gam
 <p>8- 'Adding AI Navigation'</p>
 <p>9- 'Building the Game'</p>
 <h1>Como Jugar</h1>
-<p>Para comenzar el juego lo primero es posicionarse en la Scene MainMenu</p>
+<p>Para comenzar el juego lo primero es posicionarse en la Scene MainMenu, a partir de alli pinchamos el boton Play Game, esto te llevara a la mesa de juego,
+El jugador estara representado por una bola amarilla la cual puede moverse a través de las teclas de dirección en diferentes direcciones, tambien puedes realizar saltos pulsando 
+la tecla de espacio, la idea es evitar que el enmigo te alcance evitando los obstaculos y recolectando diferentes pickups que nos proporcionaran una puntuación maxima de 25 puntos una 
+vez conseguido ganas el juego "You Win!", sin embargo si el enemigo te alcanza tu pierdes "You Lose!"</p>
