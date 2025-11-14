@@ -14,6 +14,10 @@ public class PlayerController : MonoBehaviour
     public TextMeshProUGUI countText;
     public GameObject winTextObject;
 
+    public GameObject gameOverPanel;
+    public TextMeshProUGUI gameOverText;
+
+
     private Rigidbody rb;
     private int count;
     private float movementX;
@@ -27,6 +31,9 @@ public class PlayerController : MonoBehaviour
         count = 0;
         SetCountText();
         winTextObject.SetActive(false);
+
+        if(gameOverPanel != null)
+            gameOverPanel.SetActive(false);
     }
 
     // Called when the player moves (Input System)
@@ -86,12 +93,14 @@ public class PlayerController : MonoBehaviour
             count += 6;
             SetCountText();
         }
-        
+
         if (other.CompareTag("Enemy"))
         {
             Destroy(gameObject);
-            winTextObject.SetActive(true);
-            winTextObject.GetComponent<TextMeshProUGUI>().text = "You Lose!";
+            //winTextObject.SetActive(true);
+            gameOverPanel.SetActive(true);
+            //winTextObject.GetComponent<TextMeshProUGUI>().text = "You Lose!";
+            gameOverText.text = "You Lose!";
         }
     }
 
@@ -117,8 +126,10 @@ public class PlayerController : MonoBehaviour
 
         if (count >= 25)
         {
-            winTextObject.SetActive(true);
-            winTextObject.GetComponent<TextMeshProUGUI>().text = "You Win!";
+            gameOverText.text = "You Win!";
+            gameOverPanel.SetActive(true);
+            //winTextObject.SetActive(true);
+            //winTextObject.GetComponent<TextMeshProUGUI>().text = "You Win!";
             Destroy(GameObject.FindGameObjectWithTag("Enemy"));
         }
     }
